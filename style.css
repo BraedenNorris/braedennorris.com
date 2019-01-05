@@ -1,0 +1,28 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+#name {
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#links {
+    margin-top: 30px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#first-title {
+    margin-top: 30px;
+}
+
+#desc {
+
+}

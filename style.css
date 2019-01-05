@@ -2,6 +2,26 @@
     font-family: 'Lato', sans-serif;
 }
 
+@media only screen and (min-width: 1300px) {
+
+    #picture {
+        margin-top: 40px;
+        margin-right: 540px;
+    }
+    
+    #links {
+        margin-top: -50px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+
+    #picture {
+        display: none;
+    }
+
+
+}
+
 #name {
     margin-top: 60px;
     font-size: 40px;
@@ -9,20 +29,16 @@
 }
 
 #links {
-    margin-top: 30px;
     list-style-type: none;
     font-size: 25px;
 }
 
 #title {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 #first-title {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-#desc {
-
-}

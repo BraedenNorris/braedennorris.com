@@ -1,1 +1,1 @@
-"# braedennorris.com" 
+My personal website/portfolio. Feel free to take and look for whatever you need/want.

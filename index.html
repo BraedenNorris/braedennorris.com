@@ -92,7 +92,27 @@
                 </div>
             </div>
             <script>
-                console.log('How did you get in here? dont you know that WINTER IS COMING');
+                console.log("How did you get in here? dont you know that WINTER IS COMING ❄❄❄");
+
+                let bird = new Audio("/music/bird.wav");
+
+                let work = new Audio("/music/work.wav")
+
+                function blackbirdPlay() {
+                    console.log("Blackbird... 🦅🦅🦅")
+                    bird.play();
+                }
+                function blackbirdPause() {
+                    bird.pause();
+                }
+
+                function weCanWorkItOutPlay() {
+                    console.log("We can work it out... 💪💪💪")
+                    work.play();
+                }
+                function weCanWorkItOutPause() {
+                    work.pause();
+                }
             </script>
     </body>
 </html>

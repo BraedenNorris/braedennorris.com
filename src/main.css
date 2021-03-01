@@ -1,4 +1,4 @@
-* {
+/* * {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: normal;
 }
@@ -95,4 +95,103 @@ li a:hover {
 
 .nav-list {
     padding-right: 1.5em;
+} */
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+nav ul {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.profile {
+    padding-top: 5%;
+}
+
+.container-center h1 {
+    font-size: 3rem;
+}
+
+.container-center h2 {
+    font-size: 2rem;
+}
+
+.container-center a {
+    color: black;
+}
+
+.container-center p {
+    width: 20rem;
+    margin: 0.75rem;
+    font-size: 1rem;
+}
+
+.container-center h3 {
+    margin: 0.2rem;
+}
+
+.container-center span {
+    padding-top: 15%;
+    font-size: 5rem;
+}
+
+.container-center .lists {
+    text-align: left;
+}
+
+.description {
+    margin-top: -2%;
+    font-size: 1.5rem;
+}
+
+footer {
+    padding-top: 2%;
+    font-size: 1.5rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-list {
+    padding-right: 1.5rem;
 }

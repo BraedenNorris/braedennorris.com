@@ -1,114 +1,53 @@
-<!DOCTYPE html>
-<html lang="en" class="sr js">
-    <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77727653-2"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<!doctype html>
+<html>
 
-        gtag('config', 'UA-77727653-2');
-        </script>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="robots" content="index, follow">
-        <meta name="description" content="Braeden Norris's peronsal website.">
-        <title>Braeden Norris</title>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">  
-    </head>
-    <body>
-        <header>
-            <div class="contianer">
-                <div class="row">
-                    <div id="name" class="col offset-3">
-                        Braeden Norris
-                    </div>
-                    <div id="picture" clas="col offset-6">
-                        <img width="128" alt="Braeden" src="profile.jpg">
-                    </div>
-                </div>
-        </header>
-            <div id="links" class="row">
-                    <div class="col offset-3">
-                            <li>
-                                <a target="_blank" href="https://github.com/BraedenNorris">GitHub</a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://www.linkedin.com/in/braedennorris/">LinkedIn</a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://twitter.com/braeden_norris">Twitter</a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="/Norris-Resume.pdf">Résumé</a>
-                            </li>
-                    </div>
-            </div>
-            <div id="first-title" class="row">
-                <div class="col offset-3">
-                    <span id="title">Who am I?</span>
-                    <ul>
-                        <li><span class="desc"><a target="_blank" href="https://www.wisc.edu/">College student</a></span></li>
-                        <li><span class="desc">Software engineer</span></li>
-                        <li><span class="desc">Writer</span></li>
-                        <li><span class="desc">Cook</span></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="second-title" class="row">
-                    <div class="col offset-3">
-                        <span id="title">What can I do?</span>
-                        <ul>
-                            <li><span class="desc">HTML/CSS</span></li>
-                            <li><span class="desc">AngularJS</span></li>
-                            <li><span class="desc">NodeJS</span></li>
-                            <li><span class="desc">AWS</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="third-title" class="row">
-                        <div class="col offset-3">
-                            <span id="title">What am I doing?</span>
-                            <ul>
-                                    <li><span class="desc">Working as a software engineer at <a target="_blank" href="https://www.wellright.com/">Well Right</a></span></li>
-                                    <li><span class="desc">Volunteering at <a target="_blank" href="https://www.weallcode.org/">We All Code</a></span></li>
+<head>
+  <meta charset="utf-8">
+  <title>Braeden Norris</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                                </ul>
-                        </div>
-                </div>
-                <div id="contat-link" class="row">
-                    <div class="col offset-3">
-                        <a class="typeform-share link" href="https://braeden.typeform.com/to/gULn7s" data-mode="popup" style="color:#007bff;text-decoration:underline;font-size:20px;" target="_blank">Contact Me </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-                    </div>    
-                </div>
-            </div>
-            <script>
-                console.log("How did you get in here? dont you know that WINTER IS HERE ❄❄❄");
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
 
-                let bird = new Audio("/music/bird.wav");
+  <link rel="stylesheet" href="src/main.css">
+</head>
 
-                let work = new Audio("/music/work.wav")
+<body>
+    <nav>
+        <ul class="left">
+          <li class="nav-list"><a href="/">Home</a></li>
+          <li class="nav-list"><a href="/experience">Experience</a></li>
+          <li class="nav-list"><a href="https://braedennorris.substack.com/" target="_blank">Newsletter</a></li>
+          <li class="nav-list"><a href="/projects">Projects</a></li>
+          <li class="nav-list"><a href="/lists">Lists</a></li>
+        </ul>
 
-                function blackbirdPlay() {
-                    console.log("Blackbird... 🦅🦅🦅")
-                    bird.play();
-                }
-                function blackbirdPause() {
-                    bird.pause();
-                }
+        <ul class="right">
+          <li class="nav-list"><a href="https://twitter.com/braeden_norris" target="_blank">Twitter</a></li>
+          <li class="nav-list"><a href="https://github.com/braedennorris" target="_blank">GitHub</a></li>
+          <li class="nav-list"><a href="https://www.linkedin.com/in/braedennorris/" target="_blank">LinkedIn</a></li>
+          <li class="nav-list"><a href="/https://www.instagram.com/braedennorris/" target="_blank"">Instagram</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container-center">
+      <img src="src/profile.svg" class="profile">
+    </div>
 
-                function weCanWorkItOutPlay() {
-                    console.log("We can work it out... 💪💪💪")
-                    work.play();
-                }
-                function weCanWorkItOutPause() {
-                    work.pause();
-                }
-            </script>
-    </body>
+    <div class="container-center">
+      <h1><span>👋</span>&ensp;I'm Braeden</h1>
+    </div>
+
+    <div class="container-center description">
+      <p>I’m a software engineer who wastes his time on <a href="https://twitter.com/braeden_norris" target="_blank">Twitter</a> and trading <a href="">stocks</a>.</p>
+      <p>I study computer science and statistics at the <a href="https://www.wisc.edu/" target="_blank">University of Wisconsin - Madison.</a> I’m a member of the AI Club, Finance and Investment Society, and <a href="https://genzmafia.com/">Gen Z Mafia.</a></p>
+      <p>In my free time I like to cook, spend time with family + friends, and go on runs.</p>
+      <p>Shoot me a DM or <a href="mailto: braedennorris9@gmail.com">email</a> to chat.</p>
+    </div>
+
+    <footer class="container-center"><span><a href="https://braedennorris.substack.com/" target="_blank">Subscribe to my newsletter</a> 🗞</span></footer>
+</body>
 </html>
